@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Big Bussers Pizzaria</title>
+  </head>
+
+  <body>
+    <main>
+      <form action="">
+        <h3>SELECT A SIZE</h3>
+
+        <input type="radio" id="small" name="size" value="small" />
+        <label for="small">Small</label>
+        <br />
+
+        <input type="radio" id="medium" name="size" value="medium" checked />
+        <label for="medium">Medium</label>
+        <br />
+
+        <input type="radio" id="large" name="size" value="large" />
+        <label for="large">Large</label>
+
+        <h3>SELECT A CRUST TYPE</h3>
+
+        <input type="radio" id="thin" name="crust" value="thin" />
+        <label for="thin">Thin Crust</label>
+        <br />
+
+        <input type="radio" id="hand" name="crust" value="hand" />
+        <label for="hand">Hand Tossed</label>
+        <br />
+
+        <input type="radio" id="stuffed" name="crust" value="stuffed" />
+        <label for="stuffed">Stuffed Crust</label>
+
+        <h3>SELECT TOPPINGS</h3>
+        <h4>Meats</h4>
+        <input type="checkbox" id="pepp" name="top" value="pepp" />
+        <label for="pepp">Pepperoni</label>
+        <br />
+
+        <input type="checkbox" id="bacon" name="top" value="bacon" />
+        <label for="bacon">Bacon</label>
+        <br />
+
+        <input type="checkbox" id="sausage" name="top" value="sausage" />
+        <label for="sausage">Italian Sausage</label>
+        <br />
+
+        <input type="checkbox" id="ham" name="top" value="ham" />
+        <label for="ham">Ham</label>
+        <br />
+
+        <input type="checkbox" id="chicken" name="top" value="chicken" />
+        <label for="chicken">Grilled Chicken</label>
+        <br />
+
+        <h4>Vegetables</h4>
+        <!--Mushrooms are disgusting
+        and you should feel bad if you enjoy them <3-->
+
+        <input type="checkbox" id="mushroom" name="top" value="mushroom" />
+        <label for="mushroom">Mushrooms</label>
+        <br />
+
+        <input type="checkbox" id="onion" name="top" value="onion" />
+        <label for="onion">Onion</label>
+        <br />
+
+        <input type="checkbox" id="pineapple" name="top" value="pineapple" />
+        <label for="pineapple">Pineapple</label>
+        <br />
+
+        <!--Olives are disgusting
+        and you should feel bad if you enjoy them <3-->
+
+        <input type="checkbox" id="olives" name="top" value="olives" />
+        <label for="olives">olives</label>
+        <br />
+
+        <input type="checkbox" id="gbpepp" name="top" value="gbpepp" />
+        <label for="gbpepp">Green Bell Peppers</label>
+        <br />
+
+        <input type="checkbox" id="banpepp" name="top" value="banpepp" />
+        <label for="banpepp">Banana Peppers</label>
+        <br />
+
+        <input type="checkbox" id="jalpepp" name="top" value="jalpepp" />
+        <label for="jalpepp">Jalapeño Peppers</label>
+        <br />
+
+        <h3>SELECT A SAUCE</h3>
+        <label for="sauce">Select a sauce</label>
+        <select name="sauce" id="sauce">
+          <option value="spicymar">Spicy Marinara</option>
+          <option value="buff">Buffalo</option>
+          <option value="bbq">Barbeque</option>
+          <option value="clasicmar">Classic Marinara</option>
+          <option value="none">No Sauce</option>
+        </select>
+
+        <h3>HOW MUCH CHEESE?</h3>
+
+        <input type="radio" id="none" name="cheese" value="none" />
+        <label for="none">None</label><br />
+
+        <input type="radio" id="light" name="cheese" value="light" />
+        <label for="light">Light</label><br />
+
+        <input type="radio" id="reg" name="cheese" value="reg" checked />
+        <label for="reg">Regular</label><br />
+
+        <input type="radio" id="xtra" name="cheese" value="xtra" />
+        <label for="xtra">Extra</label>
+
+        <h4>Special Instructions</h4>
+        <textarea
+          id="special"
+          name="special"
+          rows="1"
+          cols="30"
+          maxlength="30"
+        ></textarea
+        ><br /><br /><br />
+
+        <select name="amount" id="amount">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+        <input type="submit" value="Add To Order" />
+      </form>
+    </main>
+  </body>
+</html>
