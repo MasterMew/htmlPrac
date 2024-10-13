@@ -1,0 +1,66 @@
+/* *{border: 1px solid red;} */
+
+header {border-bottom: 1px black solid;}
+
+main {margin-left: 20px}
+
+label {font-size: 16px; font-weight: bold; }
+
+#navLogo {width: 100px; height: 100px;}
+
+.flex-container {
+    display: flex;
+    background-color: aqua;
+    flex-direction: column;
+    align-items: baseline;
+    align-content:first baseline;
+    flex-wrap: wrap;
+    height: 200px;
+}
+    
+
+.flex-container-row {
+    display: flex;
+    background-color: aqua;
+    flex-direction: row;
+    /* align-items: baseline; */
+    flex-wrap: wrap;
+    height: 150px;
+  
+
+}
+
+.flex-container-row > label {
+    margin-left: 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 1em;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: lightgray;
+    min-width: 150px; 
+    text-align: center;
+}
+
+input:checked + label{
+    background-color: gray;
+}
+
+.flex-container > label {
+    margin-left: 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 1em;
+    background-color:lightgray;
+    margin-top: 20px;
+    min-width: 150px; 
+    text-align: center;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+input[type="checkbox"]{
+    display:none;
+}
