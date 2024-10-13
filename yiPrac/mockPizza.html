@@ -12,158 +12,199 @@
       <form action="">
         <!-- CRUST SIZE SECTION -->
         <h3>Size</h3>
-        <input
-          type="radio"
-          id="personal-pan-pizza"
-          name="crust-size"
-          value="personal-pan-pizza"
-          checked
-        />
-        <label for="personal-pan-pizza">Personal Pan Pizza $4.59</label>
-        <input
-          type="radio"
-          id="medium-pizza"
-          name="crust-size"
-          value="medium-pizza"
-        />
-        <label for="medium-pizza">Medium Pizza $11.49</label>
-        <input
-          type="radio"
-          id="large-pizza"
-          name="crust-size"
-          value="large-pizza"
-        />
-        <label for="large-pizza">Large Pizza $13.99</label>
+        <section class="category-container" id="crust-size-container">
+          <input
+            type="radio"
+            id="personal-pan-pizza"
+            name="crust-size"
+            value="personal-pan-pizza"
+            checked
+          />
+          <label for="personal-pan-pizza">Personal Pan Pizza $4.59</label>
+          <input
+            type="radio"
+            id="medium-pizza"
+            name="crust-size"
+            value="medium-pizza"
+          />
+          <label for="medium-pizza">Medium Pizza $11.49</label>
+          <input
+            type="radio"
+            id="large-pizza"
+            name="crust-size"
+            value="large-pizza"
+          />
+          <label for="large-pizza">Large Pizza $13.99</label>
+        </section>
 
         <!-- CRUST TYPE SECTION -->
         <h3>Crust Type</h3>
-        <input
-          type="radio"
-          id="tavern-crust"
-          name="crust-type"
-          value="tavern-crust"
-          checked
-        />
-        <label for="tavern-crust">Tavern</label>
+        <section class="category-container" id="crust-type-container">
+          <input
+            type="radio"
+            id="tavern-crust"
+            name="crust-type"
+            value="tavern-crust"
+            checked
+          />
+          <label for="tavern-crust">
+            <img
+              src="./resources/tavern-style-pizza.jpg"
+              alt="Tavern Style
+            Pizza"
+              class="crust-image"
+            />
+            Tavern
+          </label>
 
-        <input
-          type="radio"
-          id="original-pan-crust"
-          name="crust-type"
-          value="original-pan-crust"
-        />
-        <label for="original-pan-crust">Original Pan Pizza</label>
+          <input
+            type="radio"
+            id="original-pan-crust"
+            name="crust-type"
+            value="original-pan-crust"
+          />
+          <label for="original-pan-crust">
+            <img
+              src="./resources/original-pan-pizza.jpg"
+              alt="Original Pan Pizza"
+              class="crust-image"
+            />
+            Original Pan Pizza
+          </label>
 
-        <input
-          type="radio"
-          id="thin-n-crispy-crust"
-          name="crust-type"
-          value="thin-n-crispy-crust"
-        />
-        <label for="thin-n-crispy-crust">Thin 'N Crispy</label>
+          <input
+            type="radio"
+            id="thin-n-crispy-crust"
+            name="crust-type"
+            value="thin-n-crispy-crust"
+          />
+          <label for="thin-n-crispy-crust">
+            <img
+              src="./resources/thin-n-crispy-pizza.jpg"
+              alt="Thin 'N Crispy Pizza"
+              class="crust-image"
+            />
+            Thin 'N Crispy
+          </label>
+        </section>
 
         <!-- TOPPINGS SECTION -->
         <h3>Toppings</h3>
-        <input
-          type="checkbox"
-          id="chicken-sausage-topping"
-          name="topping"
-          value="chicken-sausage-topping"
-        />
-        <label for="chicken-sausage-topping">Chicken Sausage</label>
-        <br />
+        <section class="category-container" id="toppings-container">
+          <div>
+            <input
+              type="checkbox"
+              id="chicken-sausage-topping"
+              name="topping"
+              value="chicken-sausage-topping"
+            />
+            <label for="chicken-sausage-topping">Chicken Sausage</label>
+          </div>
 
-        <input
-          type="checkbox"
-          id="crispy-cupped-pepperoni-topping"
-          name="topping"
-          value="crispy-cupped-pepperoni-topping"
-        />
-        <label for="crispy-cupped-pepperoni-topping"
-          >Crispy Cupped Pepperoni</label
-        >
-        <br />
+          <div>
+            <input
+              type="checkbox"
+              id="crispy-cupped-pepperoni-topping"
+              name="topping"
+              value="crispy-cupped-pepperoni-topping"
+            />
+            <label for="crispy-cupped-pepperoni-topping"
+              >Crispy Cupped Pepperoni</label
+            >
+          </div>
 
-        <input
-          type="checkbox"
-          id="pepperoni-topping"
-          name="topping"
-          value="pepperoni-topping"
-        />
-        <label for="pepperoni-topping">Pepperoni</label>
-        <br />
+          <div>
+            <input
+              type="checkbox"
+              id="pepperoni-topping"
+              name="topping"
+              value="pepperoni-topping"
+            />
+            <label for="pepperoni-topping">Pepperoni</label>
+          </div>
 
-        <input
-          type="checkbox"
-          id="bacon-topping"
-          name="topping"
-          value="bacon-topping"
-        />
-        <label for="bacon-topping">Bacon</label>
-        <br />
+          <div>
+            <input
+              type="checkbox"
+              id="bacon-topping"
+              name="topping"
+              value="bacon-topping"
+            />
+            <label for="bacon-topping">Bacon</label>
+          </div>
 
-        <input
-          type="checkbox"
-          id="italian-sausage-topping"
-          name="topping"
-          value="italian-sausage-topping"
-        />
-        <label for="italian-sausage-topping">Italian Sausage</label>
-        <br />
+          <div>
+            <input
+              type="checkbox"
+              id="italian-sausage-topping"
+              name="topping"
+              value="italian-sausage-topping"
+            />
+            <label for="italian-sausage-topping">Italian Sausage</label>
+          </div>
 
-        <input
-          type="checkbox"
-          id="caramelized-onion-topping"
-          name="topping"
-          value="caramelized-onion-topping"
-        />
-        <label for="caramelized-onion-topping">Caramelized Onions</label>
-        <br />
+          <div>
+            <input
+              type="checkbox"
+              id="caramelized-onion-topping"
+              name="topping"
+              value="caramelized-onion-topping"
+            />
+            <label for="caramelized-onion-topping">Caramelized Onions</label>
+          </div>
 
-        <input
-          type="checkbox"
-          id="grape-tomato-topping"
-          name="topping"
-          value="grape-tomato-topping"
-        />
-        <label for="grape-tomato-topping">Grape Tomatoes</label>
-        <br />
+          <div>
+            <input
+              type="checkbox"
+              id="grape-tomato-topping"
+              name="topping"
+              value="grape-tomato-topping"
+            />
+            <label for="grape-tomato-topping">Grape Tomatoes</label>
+          </div>
 
-        <input
-          type="checkbox"
-          id="fire-roasted-pepper-topping"
-          name="topping"
-          value="fire-roasted-pepper-topping"
-        />
-        <label for="fire-roasted-pepper-topping">Fire Roasted Peppers</label>
-        <br />
+          <div>
+            <input
+              type="checkbox"
+              id="fire-roasted-pepper-topping"
+              name="topping"
+              value="fire-roasted-pepper-topping"
+            />
+            <label for="fire-roasted-pepper-topping"
+              >Fire Roasted Peppers</label
+            >
+          </div>
 
-        <input
-          type="checkbox"
-          id="onion-topping"
-          name="topping"
-          value="onion-topping"
-        />
-        <label for="onion-topping">Onions</label>
-        <br />
+          <div>
+            <input
+              type="checkbox"
+              id="onion-topping"
+              name="topping"
+              value="onion-topping"
+            />
+            <label for="onion-topping">Onions</label>
+          </div>
 
-        <input
-          type="checkbox"
-          id="pineapple-topping"
-          name="topping"
-          value="pineapple-topping"
-        />
-        <label for="pineapple-topping">Pineapple</label>
-        <br />
+          <div>
+            <input
+              type="checkbox"
+              id="pineapple-topping"
+              name="topping"
+              value="pineapple-topping"
+            />
+            <label for="pineapple-topping">Pineapple</label>
+          </div>
 
-        <input
-          type="checkbox"
-          id="green-bell-pepper-topping"
-          name="topping"
-          value="green-bell-pepper-topping"
-        />
-        <label for="green-bell-pepper-topping">Green Bell Peppers</label>
-        <br />
+          <div>
+            <input
+              type="checkbox"
+              id="green-bell-pepper-topping"
+              name="topping"
+              value="green-bell-pepper-topping"
+            />
+            <label for="green-bell-pepper-topping">Green Bell Peppers</label>
+          </div>
+        </section>
 
         <!-- SAUCE -->
         <h3>Sauce</h3>
